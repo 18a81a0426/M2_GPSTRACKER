@@ -1,14 +1,29 @@
 # M2_GPSTRACKER
-This GPS bike/car tracker is based on ATMEGA 328P. GPS, which stands for Global Positioning System. The system involves a network of satellites orbiting around the Earth and devices that can help determine an object or a person's location. Initially developed in the 1960s for military application, GPS technology eventually became available for public use in 1983, and advances and use cases have increased over the decades. These days, GPS has a range of uses, from military exercises across the globe to directions that help drivers find their way.
+This GPS bike/car tracker is based on ATMEGA 328P. GPS, which stands for Global Positioning System. The system involves a network of satellites orbiting around the Earth 
+and devices that can help determine an object or a person's location. Initially developed in the 1960s for military application, GPS technology eventually became 
+available for public use in 1983, and advances and use cases have increased over the decades. These days, GPS has a range of uses, from military exercises across the 
+globe to directions that help drivers find their way.
 # GPS TRACKING SYSTEM BASICS
-A GPS tracking system does this by using the Global Navigation Satellite System (GNSS) network. This network consists of satellites that communicate with GPS devices to provide information on the current location, direction, time, and speed of the vehicle being tracked.
+A GPS tracking system does this by using the Global Navigation Satellite System (GNSS) network. This network consists of satellites that communicate with GPS devices to 
+provide information on the current location, direction, time, and speed of the vehicle being tracked.
 # A VEHICLE TRACKING DEVICE WORKING
-GPS tracking devices send special satellite signals that are processed by a receiver. These GPS receivers track the exact location of the GPS device as well as compute their time and the velocity they are traveling. These positions can also be computed and represented in three-dimensional views using four types of GPS satellite signals. GPS systems consist of three segments: space, control, and user.
+GPS tracking devices send special satellite signals that are processed by a receiver. These GPS receivers track the exact location of the GPS device as well as compute 
+their time and the velocity they are traveling. These positions can also be computed and represented in three-dimensional views using four types of GPS satellite signals.
+GPS systems consist of three segments: space, control, and user.
 # THE SPACE SEGMENT
-The Global Positioning System is made up of 27 satellites that orbit the Earth. Of these 27 satellites, 24 are operational, and three are backup satellites if one of the other 24 fails. These satellites orbit the Earth every 12 hours and send signals that are received by GPS receivers.
+The Global Positioning System is made up of 27 satellites that orbit the Earth. Of these 27 satellites, 24 are operational, and three are backup satellites if one of the
+other 24 fails. These satellites orbit the Earth every 12 hours and send signals that are received by GPS receivers.
 # THE CONTROL SEGMENT
-The Positioning System is controlled by different tracking stations located around the globe. These stations pick up microwave carrier signals transmitted by the satellites, and the GPS receivers convert these signals into data such as velocity, time, and position.
+The Positioning System is controlled by different tracking stations located around the globe. These stations pick up microwave carrier signals transmitted by the 
+satellites, and the GPS receivers convert these signals into data such as velocity, time, and position.
 # THE USER SEGMENT
 GPS receivers receive the signals sent by GPS satellites and use them to determine the user's position in space and time.
 # TWO TYPES OF GPS SYSTEMS
-There are a few ways a GPS tracking system can work. Commercial GPS devices are often used to record the location of vehicles during their journeys. Some systems will store information within the GSP system itself, this is called passive tracking. Other systems regularly send data to a centralized database through a modem, this is called active tracking or 2-way GPS.Passive GPS tracking monitors location and stores data on trips based on specific events. This type of system can log data on where the devices have been in the past 12 hours. It stores the data internally or on a memory card, which is then downloaded to a computer to be analyzed later. In some systems, the information is downloaded automatically at a set time or can be requested periodically during the journey.Passive GPS entails real-time tracking systems that automatically send information to a central tracking portal as it happens. This type of system is used on most commercial applications, such as monitoring and tracking children or the elderly, since it lets caregivers know where their charges are at all times. This type of system is also used to monitor employees' behavior as they work and streamlining fleets' operations.
+There are a few ways a GPS tracking system can work. Commercial GPS devices are often used to record the location of vehicles during their journeys. Some systems will
+store information within the GSP system itself, this is called passive tracking. Other systems regularly send data to a centralized database through a modem, this is 
+called active tracking or 2-way GPS.Passive GPS tracking monitors location and stores data on trips based on specific events. This type of system can log data on where 
+the devices have been in the past 12 hours. It stores the data internally or on a memory card, which is then downloaded to a computer to be analyzed later. In some 
+systems, the information is downloaded automatically at a set time or can be requested periodically during the journey.Passive GPS entails real-time tracking systems 
+that automatically send information to a central tracking portal as it happens. This type of system is used on most commercial applications, such as monitoring and 
+tracking children or the elderly, since it lets caregivers know where their charges are at all times. This type of system is also used to monitor employees' behavior as 
+they work and streamlining fleets' operations.
